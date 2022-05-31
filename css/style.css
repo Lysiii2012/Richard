@@ -1,0 +1,310 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**********************************************/
+.wrapper{
+    font-family: 'Gothic A1', sans-serif;
+    margin: 0 auto;
+    width: 1440px;
+}
+header{
+    background: no-repeat url(../img/heard_foto.png) , linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063 ;
+    padding: 29px 144px;
+    background-position: bottom right;
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 226px;
+}
+.menu > ul{
+    display: flex;
+}
+.menu > ul > li a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 0 0 30px;
+}
+h1{
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin: 0 0 10px;
+}
+.pageText p{
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin: 0 0 25px;
+}
+.btn a{
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn{
+    padding: 20px 40px;
+    background: #FC0A7E;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 0 277px;
+}
+.btn:hover{
+    background: #5c032e;
+    outline: 2px solid rgba(247, 243, 245, .2);
+}
+.conteiner{
+    background: no-repeat url(../img/sec.png) , #1B1B1B;
+    background-position: bottom center;
+    padding: 100px 0 711px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.text{
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    margin: 0 0 30px;
+}
+h2 {
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.sec_conteiner{
+    padding: 0 274px 0;
+}
+.content{
+    background: no-repeat url(../img/food.png);
+    background-position: right;
+    padding: 268px 0 5px;
+}
+.about{
+    max-width: 306px;
+}
+.about > h2{
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+    margin: 0 0 22px;
+}
+.about .text{
+    display: inline-block;
+    margin: 0 0 30px;
+}
+.about > p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+    margin: 0 0 200px;
+}
+.sec_content{
+    background: no-repeat url(../img/plans.png);
+    padding: 150px 0  100px 530px ;
+}
+.three_content{
+    background: no-repeat url(../img/food2.png);
+    background-position: top right;
+    padding: 100px 0 150px;
+    
+}
+.contentPage{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 370px);
+    gap: 60px;
+    justify-content: center;
+    background-position: center;
+    margin: 0 0 163px;
+}
+.item{
+     padding: 60px 0 0 ;
+     text-align: center;
+     background-position: center;
+}
+.first{
+    background: no-repeat url('../img/icon_burg.png') ;
+    background-position:top center;
+}
+.second{
+    background: no-repeat url('../img/Artboard.png') ;
+    background-position:top center;
+}
+.third{
+    background: no-repeat url('../img/mob.png') ;
+    background-position:top center;
+}
+h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 0 17px;
+}
+.item p{
+    line-height: 30px;
+    color: #6B6B6B;
+}
+.data_page{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 155px;
+    text-align: center;
+    margin: 0 0 170px;
+}
+.link > span{
+    font-size: 59px;
+    line-height: 90px;
+    color: #333333;
+    margin: 0 0 10px;
+}
+.four_conteiner{
+    padding: 0 236px;
+}
+.burger{
+    background: no-repeat url(../img/burger.png);
+    background-position: top right;
+}
+.food_content p{
+    max-width: 330px;
+    line-height: 30px;
+    color: #6B6B6B;
+    margin: 0 0 170px;
+}
+.four_conteiner > div > h2{
+    color: #000000;
+    max-width: 258px;
+    margin: 0 0 22px;
+}
+.food_content > span{
+    padding: 15px 0 0;
+    margin: 0 0 30px;
+}
+.tortor{
+    background: no-repeat url(../img/tortur.jpg);
+    background-position: top left;
+    padding: 0 70px 0 600px;
+}
+.text_content{
+    padding: 60px 370px 0;
+    background:no-repeat url('../img/text.png') ;
+    background-position: top center;
+    text-align: center;
+    margin: 0 0 88px;
+}
+.text_content > p{
+    font-size: 24px;
+    line-height: 40px;
+    color: #6B6B6B;
+    margin: 0 0 17px;
+}
+.text_content a{
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+.contentFon{
+    background: no-repeat url(../img/section.png);
+    background-position: top center;
+}
+.fotoContent{
+    background: no-repeat url(../img/footer.png);
+    padding: 500px 0 0;
+    background-position:  center;
+}
+.form{
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    padding: 100px 0 156px ;
+    text-align: center;
+}
+h3{
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 0 0 60px;
+}
+.form > ul{
+}
+.form > ul > li{
+    display: inline-block;
+}
+.form > ul > li > a{
+    text-decoration: none;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background: rgb(252, 10, 126);
+    border-radius: 3px;
+    padding: 20px 40px;
+    margin: 0 5px;
+    outline: 2px solid rgba(255, 255, 255, .3);
+}
+.fotter{
+    padding: 50px 450px;
+    background: #1B1B1B;
+}
+.logo_fotter{
+    text-align: center;
+    margin: 0 0 30px;
+}
+.site{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.site > li > a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #6B6B6B;
+}
+.footer_{
+   padding:0 0 50px;
+}
